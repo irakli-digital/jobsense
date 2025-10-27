@@ -12,12 +12,14 @@ const GoogleSearchAPI = require('./structured/GoogleSearch');
 const TraversaalSearch = require('./structured/TraversaalSearch');
 const createOpenAIImageTools = require('./structured/OpenAIImageTools');
 const TavilySearchResults = require('./structured/TavilySearchResults');
+const N8NTool = require('./structured/N8NTool');
 
 module.exports = {
   ...manifest,
   // Structured Tools
   DALLE3,
   FluxAPI,
+  N8NTool,
   OpenWeather,
   StructuredSD,
   StructuredACS,

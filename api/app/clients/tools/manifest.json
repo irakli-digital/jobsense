@@ -192,5 +192,23 @@
         "description": "Provide your Flux API key from your user profile."
       }
     ]
+  },
+  {
+    "name": "Job Search",
+    "pluginKey": "n8n_workflow",
+    "description": "Search for job listings based on position, location, skills, experience level, and other criteria. Returns relevant job opportunities with details.",
+    "icon": "https://n8n.io/favicon.ico",
+    "authConfig": [
+      {
+        "authField": "N8N_WEBHOOK_URL",
+        "label": "N8N Webhook URL",
+        "description": "Your N8N workflow webhook URL. Create a webhook trigger in N8N and paste the webhook URL here."
+      },
+      {
+        "authField": "N8N_API_KEY",
+        "label": "N8N API Key (Optional)",
+        "description": "Optional API key for secure N8N workflows. Configure this if your N8N workflow requires authentication."
+      }
+    ]
   }
 ]

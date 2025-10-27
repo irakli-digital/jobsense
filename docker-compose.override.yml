@@ -1,0 +1,9 @@
+# Override configuration to use MongoDB Atlas instead of local MongoDB
+services:
+  api:
+    environment:
+      - MONGO_URI=${MONGO_URI}
+  mongodb:
+    image: tianon/true
+    command: ""
+    entrypoint: ""
