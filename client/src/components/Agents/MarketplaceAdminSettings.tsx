@@ -195,7 +195,7 @@ const MarketplaceAdminSettings = () => {
                 type="button"
                 onClick={handleSubmit(onSubmit)}
                 disabled={isSubmitting || isLoading}
-                className="btn rounded bg-green-500 font-bold text-white transition-all hover:bg-green-600"
+                className="btn rounded bg-violet-500 font-bold text-white transition-all hover:bg-green-600"
               >
                 {localize('com_ui_save')}
               </button>
